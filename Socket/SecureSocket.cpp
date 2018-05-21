@@ -10,7 +10,8 @@
 
 #ifndef LINUX
 // to avoid link problems in prod/test program
-#include <openssl/applink.c>
+// Commented out to get compiling on Debian 7
+// #include <openssl/applink.c>
 #endif
 
 // Static members initialization
